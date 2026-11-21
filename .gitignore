@@ -1,1 +1,44 @@
+
+# Virtual environment
 .venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Uploaded documents and generated files
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+storage/reports/*
+!storage/reports/.gitkeep
+
+# ML models and vector indexes
+*.pkl
+*.joblib
+*.faiss
+*.index
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

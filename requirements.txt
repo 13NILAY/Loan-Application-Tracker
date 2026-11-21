@@ -1,0 +1,76 @@
+
+# =====================================
+# Development Environment
+# =====================================
+jupyterlab
+ipykernel
+
+# =====================================
+# Backend
+# =====================================
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic-settings
+email-validator
+
+# =====================================
+# Database
+# =====================================
+sqlalchemy
+psycopg[binary]
+alembic
+
+# =====================================
+# Agentic AI and LLM
+# =====================================
+langgraph
+langchain
+langchain-core
+langchain-google-genai
+
+# =====================================
+# RAG
+# =====================================
+langchain-community
+sentence-transformers
+faiss-cpu
+
+# =====================================
+# Machine Learning and Data Processing
+# =====================================
+scikit-learn
+pandas
+numpy
+
+# =====================================
+# Document Processing
+# =====================================
+pymupdf
+pytesseract
+pillow
+
+# =====================================
+# Frontend
+# =====================================
+streamlit
+plotly
+
+# =====================================
+# Automation and Reports
+# =====================================
+apscheduler
+reportlab
+
+# =====================================
+# Configuration and Security
+# =====================================
+python-dotenv
+pyjwt[crypto]
+pwdlib[argon2]
+
+# =====================================
+# Testing
+# =====================================
+pytest
+httpx
